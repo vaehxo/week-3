@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Nevaeh Williams-->
+<head>
+    <script src="stringCode.js" ></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Title set-->
+    <title>Input Validation</title>
+</head>
+
+<body>
+   <!--input header 1-->
+    <h1>Welcome to Strings.HTML</h1> <br>
+    <br>
+    <!--input header 2-->
+    <h2>Input Validation Section</h2>
+    <div id="loginStatus">Press Submit to Login</div>
+    <p>Please Submit Data for Validation</p>
+    <form id="creditSubmit" onsubmit="return false">
+    <!--variables needed-->
+    First Name: <input type="text" id="fName"><br>
+    Last Name: <input type="text" id="lName"><br>
+    Zip Code: <input type="text" id="ZipCode"><br>
+    <br>
+    <input type="submit" onclick="checkCreds();">
+    </form>
+</body>
+
+</html>
